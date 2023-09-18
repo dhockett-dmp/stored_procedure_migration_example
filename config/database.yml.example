@@ -1,0 +1,9 @@
+base: &base
+  adapter: sqlserver
+  host: <yourmachine.local, localhost, 127.0.0.1, etc>
+  username: <your db username>
+  password: <your db password>
+
+main:
+  <<: *base
+  database: stored_procedure_migration_example_database
