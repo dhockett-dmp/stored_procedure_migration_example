@@ -1,4 +1,4 @@
-class AddStoredProc < ActiveRecord::Migration[7.0]
+class AddStoredProc < ActiveRecord::Migration[6.1]
   def change
     reversible do |direction|
       direction.up do
